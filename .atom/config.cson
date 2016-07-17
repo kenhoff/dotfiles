@@ -7,6 +7,7 @@
   editor:
     showIndentGuide: true
     showInvisibles: true
+    softTabs: false
     softWrap: true
     tabLength: 4
   "exception-reporting":
