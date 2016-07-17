@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "b1213839-ef7e-47b3-91d4-315a88bbffd2"
+    js:
+      indent_with_tabs: true
     markdown:
       default_beautifier: "Remark"
   editor:
