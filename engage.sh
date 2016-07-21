@@ -2,7 +2,7 @@
 
 echo "Starting..."
 
-files=`find . -type f -name "*" -not -name .DS_Store -not -name .gitignore -not -name engage.sh -not -path "./.git/*"` # ignore .git folder, .DS_Store, .gitignore, this file
+files=`find . -type f -name "*" -not -name .DS_Store -not -name README.md -not -name .gitignore -not -name engage.sh -not -path "./.git/*"` # ignore .git folder, .DS_Store, README.md, .gitignore, this file
 
 for file in $files; do
 	if [[ -d "$file" ]]; then
