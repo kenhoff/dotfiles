@@ -2,3 +2,6 @@
     "import":
         "prefix": "import"
         "body": "import $1 from \"$2\";"
+    "require":
+        "prefix": "req"
+        "body": "const $1 = require(\"$1\");"
