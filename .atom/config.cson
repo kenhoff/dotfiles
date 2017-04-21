@@ -2,19 +2,32 @@
   "atom-beautify":
     general:
       _analyticsUserId: "b1213839-ef7e-47b3-91d4-315a88bbffd2"
+    html:
+      extra_liners: [
+        ""
+      ]
+      indent_inner_html: true
     js:
       indent_with_tabs: true
     json:
       indent_with_tabs: true
     markdown:
       default_beautifier: "Remark"
+  core:
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter-pug"
+    ]
+    telemetryConsent: "limited"
   editor:
     showIndentGuide: true
     showInvisibles: true
     softTabs: false
     softWrap: true
     tabLength: 4
+    tabType: "hard"
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
+  linter: {}
   welcome:
     showOnStartup: false

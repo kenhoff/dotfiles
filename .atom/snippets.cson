@@ -1,7 +1,7 @@
 ".source.js, .source.js.jsx":
     "import":
-        "prefix": "import"
+        "prefix": "im"
         "body": "import $1 from \"$2\";"
     "require":
         "prefix": "req"
-        "body": "const $1 = require(\"$1\");"
+        "body": "const $1 = require(\"$2\");"
