@@ -20,4 +20,15 @@ for file in $files; do
 	fi
 done
 
+
+
+# add apm install stars bit here
+apm stars --install
+
 echo "Finished!"
+
+# other things this should do:
+# install homebrew
+# brew install fish
+# connect fish the right way - add to /etc/shells file, and run `chsh -s /usr/local/bin/fish`
+# make the `find` command up top ignore all the non-directory files in this repo
