@@ -6,3 +6,7 @@ set -x EDITOR atom
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc'; else; . '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc'; end; end
+
+function ll --description "List contents of directory using long format"
+    ls -lha $argv
+end
