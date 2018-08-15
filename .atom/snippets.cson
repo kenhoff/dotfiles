@@ -1,7 +1,46 @@
 ".source.js, .source.js.jsx":
     "import":
         "prefix": "im"
-        "body": "import $1 from \"$2\";"
+        "body": "import $1 from \"$1\";"
     "require":
         "prefix": "req"
-        "body": "const $1 = require(\"$2\");"
+        "body": "const $1 = require(\"$1\");"
+    "React-redux connected class skeleton":
+        "prefix": "rcdc"
+        "body": """
+            import PropTypes from 'prop-types';
+            import React from 'react';
+            import { connect } from 'react-redux';
+
+            class ${1:SomeContainerComponent} extends React.Component {
+            	render() {
+            		return <div>${2:asdfasdfasdf}</div>;
+            	}
+            }
+
+            const mapStateToProps = (state, ownProps) => {
+            	return { ...ownProps };
+            };
+
+            const mapDispatchToProps = (dispatch, ownProps) => {
+            	return { ...ownProps };
+            };
+
+            const mergeProps = (stateProps, dispatchProps, ownProps) => {
+            	return {
+            		...ownProps,
+            		...dispatchProps,
+            		...stateProps,
+            	};
+            };
+
+            export default connect(mapStateToProps, mapDispatchToProps, mergeProps)(
+            	${1:SomeContainerComponent},
+            );
+        """
+    "Bind react method constructor":
+        "prefix": "bind"
+        "body": "this.$1 = this.$1.bind(this);"
+    "eslint disable line no console":
+        "prefix": "disable"
+        "body": "// eslint-disable-line no-console"
