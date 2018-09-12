@@ -8,11 +8,11 @@
       ]
       indent_inner_html: true
     js:
-      indent_with_tabs: true
+      indent_with_tabs: false
     json:
-      indent_with_tabs: true
+      indent_with_tabs: false
     jsx:
-      indent_with_tabs: true
+      indent_with_tabs: false
     markdown:
       default_beautifier: "Remark"
   core:
@@ -28,7 +28,6 @@
     softTabs: false
     softWrap: true
     tabLength: 4
-    tabType: "hard"
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
   linter: {}
