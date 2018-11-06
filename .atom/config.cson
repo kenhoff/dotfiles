@@ -8,32 +8,34 @@
       ]
       indent_inner_html: true
     js:
-      indent_with_tabs: true
+      indent_char: " "
+      indent_size: 4
+      indent_with_tabs: false
     json:
       indent_with_tabs: true
     jsx:
       indent_with_tabs: true
     markdown:
       default_beautifier: "Remark"
+    typescript:
+      indent_size: 4
+      indent_with_tabs: false
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey,metaKey"
   core:
     closeEmptyWindows: false
     destroyEmptyPanes: false
     disabledPackages: [
       "linter-pug"
+      "linter"
     ]
     telemetryConsent: "limited"
   editor:
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
     softWrap: true
-    tabLength: 4
-    tabType: "hard"
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
-  linter: {}
-  "linter-ui-default":
-    panelHeight: 47
-    showPanel: true
   welcome:
     showOnStartup: false
