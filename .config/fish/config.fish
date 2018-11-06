@@ -7,3 +7,5 @@ end
 function gs --description "git status"
     git status $argv
 end
+
+thefuck --alias | source
