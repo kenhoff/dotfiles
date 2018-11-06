@@ -44,3 +44,15 @@
     "eslint disable line no console":
         "prefix": "disable"
         "body": "// eslint-disable-line no-console"
+".source.tsx":
+    "React component":
+        "prefix": "rcd"
+        "body": """
+            import * as React from "react";
+
+            export default class ${1:ComponentName} extends React.Component {
+                public render(): JSX.Element {
+                    return (${2})
+                }
+            }
+        """
