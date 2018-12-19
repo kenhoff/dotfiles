@@ -8,6 +8,8 @@
       ]
       indent_inner_html: true
     js:
+      indent_char: " "
+      indent_size: 4
       indent_with_tabs: false
     json:
       indent_with_tabs: false
@@ -25,7 +27,6 @@
   editor:
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -33,6 +34,5 @@
   linter: {}
   "linter-ui-default":
     panelHeight: 47
-    showPanel: true
   welcome:
     showOnStartup: false
