@@ -46,7 +46,7 @@
         "body": "// eslint-disable-line no-console"
 ".source.tsx":
   "React class skeleton with interfaces":
-    "prefix": "ts-rc"
+    "prefix": "rcd"
     "body": """
       import * as React from "react"
 
@@ -65,8 +65,8 @@
 
           };
         }
-        public render() {
-          return (<div>${1:SomeClass}</div>)
+        public render(): JSX.Element {
+          return (${2:asdfasdfasdf})
         }
       }
     """

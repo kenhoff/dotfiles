@@ -17,11 +17,18 @@
       indent_with_tabs: false
     markdown:
       default_beautifier: "Remark"
+    typescript:
+      indent_size: 4
+      indent_with_tabs: false
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey,metaKey"
   core:
     closeEmptyWindows: false
     destroyEmptyPanes: false
     disabledPackages: [
       "linter-pug"
+      "linter"
     ]
     telemetryConsent: "limited"
   editor:
