@@ -12,6 +12,7 @@
       indent_size: 4
       indent_with_tabs: false
     json:
+      indent_size: 2
       indent_with_tabs: false
     jsx:
       indent_with_tabs: false
@@ -35,7 +36,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    tabLength: 4
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
   linter: {}
