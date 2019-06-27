@@ -1,4 +1,21 @@
 {
+  "catacombs": [
+    [
+      [
+        "postgres -D .db",
+        "ngrok http 1234 -subdomain=ken-dev-halp"
+      ]
+    ],
+    [
+      [
+        "npm run build-watch",
+        "npm run start-watch"
+      ]
+    ],
+    [
+      "git status"
+    ]
+  ],
   "halp": [
     [
       [
@@ -16,22 +33,5 @@
       ]
     ],
     "git status"
-  ],
-  "catacombs": [
-    [
-      [
-        "postgres -D .db",
-        "ngrok http 1234 -subdomain=ken-dev-halp"
-      ]
-    ],
-    [
-      [
-        "npm run build-watch",
-        "npm run start-watch"
-      ]
-    ],
-    [
-      "git status"
-    ]
   ]
 }
