@@ -45,14 +45,28 @@
         "prefix": "disable"
         "body": "// eslint-disable-line no-console"
 ".source.tsx":
-    "React component":
-        "prefix": "rcd"
-        "body": """
-            import * as React from "react";
+  "React class skeleton with interfaces":
+    "prefix": "ken-rcd"
+    "body": """
+      import * as React from "react"
 
-            export default class ${1:ComponentName} extends React.Component {
-                public render(): JSX.Element {
-                    return (${2})
-                }
-            }
-        """
+      interface I${1:SomeClass}Props {
+
+      }
+
+      interface I${1:SomeClass}State {
+
+      }
+
+      export default class ${1:SomeClass} extends React.Component<I${1:SomeClass}Props, I${1:SomeClass}State> {
+        constructor(props: I${1:SomeClass}Props) {
+          super(props);
+          this.state = {
+
+          };
+        }
+        public render(): JSX.Element {
+          return (${2:asdfasdfasdf})
+        }
+      }
+    """

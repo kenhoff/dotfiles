@@ -29,11 +29,13 @@ echo "Finished!"
 
 # other things this should do:
 # install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # brew install fish
-# brew install thefuck
+brew install fish
 # connect fish the right way - add to /etc/shells file, and run `chsh -s /usr/local/bin/fish`
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+
+# brew install thefuck
 # make the `find` command up top ignore all the non-directory files in this repo
-# install fisher
-# install fish-nvm & latest node
 # install node js
-# install xcode command line tools

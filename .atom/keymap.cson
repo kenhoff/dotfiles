@@ -30,3 +30,4 @@
     'ctrl-shift-tab ^ctrl': 'unset!'
     'ctrl-shift-tab': 'pane:show-previous-item'
     'ctrl-tab': 'pane:show-next-item'
+    'alt-shift-s': 'linter-eslint:fix-file'

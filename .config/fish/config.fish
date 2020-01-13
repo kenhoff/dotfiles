@@ -1,4 +1,6 @@
 set -x EDITOR atom
+set -gx PATH ~/.hyper_plugins $PATH
+set -g fish_user_paths "/usr/local/opt/mongodb@3.4/bin" $fish_user_paths
 
 function ll --description "List contents of directory using long format"
     ls -lha $argv
