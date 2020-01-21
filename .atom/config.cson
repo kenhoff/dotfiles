@@ -30,10 +30,11 @@
     disabledPackages: [
       "linter-pug"
       "linter"
+      "indent-guide-improved"
+      "react"
     ]
     telemetryConsent: "limited"
   editor:
-    showIndentGuide: true
     showInvisibles: true
     softWrap: true
   "exception-reporting":

@@ -16,3 +16,4 @@ thefuck --alias | source
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc'; end
+rvm default
