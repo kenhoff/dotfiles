@@ -24,6 +24,11 @@
   "atom-ide-ui":
     hyperclick:
       darwinTriggerKeys: "altKey,metaKey"
+  "autocomplete-plus":
+    fileBlacklist: [
+      ".*"
+      "*.md"
+    ]
   core:
     closeEmptyWindows: false
     destroyEmptyPanes: false
@@ -37,6 +42,7 @@
   editor:
     showInvisibles: true
     softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
   linter: {}
