@@ -50,3 +50,9 @@
     panelHeight: 47
   welcome:
     showOnStartup: false
+".source.yaml":
+  "editor":
+    tabLength: 2
+".source.coffee":
+  "editor":
+    tabLength: 2
