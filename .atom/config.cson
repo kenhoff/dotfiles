@@ -17,11 +17,14 @@
     jsx:
       indent_with_tabs: false
     markdown:
+      commonmark: true
       default_beautifier: "Remark"
     typescript:
       indent_size: 4
       indent_with_tabs: false
   "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
     hyperclick:
       darwinTriggerKeys: "altKey,metaKey"
   "autocomplete-plus":
@@ -40,6 +43,7 @@
     ]
     telemetryConsent: "limited"
   editor:
+    scrollPastEnd: true
     showInvisibles: true
     softWrap: true
     tabLength: 4
@@ -50,9 +54,12 @@
     panelHeight: 47
   welcome:
     showOnStartup: false
-".source.yaml":
-  "editor":
+".coffee.source":
+  editor:
     tabLength: 2
-".source.coffee":
-  "editor":
+".js.jsx.source":
+  editor:
+    tabLength: 2
+".source.yaml":
+  editor:
     tabLength: 2
