@@ -22,6 +22,7 @@
       indent_size: 4
       indent_with_tabs: false
   "atom-ide-ui":
+    "atom-ide-diagnostics-ui": {}
     hyperclick:
       darwinTriggerKeys: "altKey,metaKey"
   core:
@@ -32,15 +33,29 @@
       "linter"
       "indent-guide-improved"
       "react"
+      "linter-ui-default"
     ]
     telemetryConsent: "limited"
   editor:
+    showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "a87ae223-eb63-74c0-eb42-427a2d259630"
   linter: {}
+  "linter-eslint":
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.flow"
+      "source.babel"
+      "source.js-semantic"
+      "source.ts"
+      "source.tsx"
+    ]
   "linter-ui-default":
-    panelHeight: 47
+    panelHeight: 256
   welcome:
     showOnStartup: false
