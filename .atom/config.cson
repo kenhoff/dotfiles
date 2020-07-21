@@ -25,6 +25,11 @@
     "atom-ide-diagnostics-ui": {}
     hyperclick:
       darwinTriggerKeys: "altKey,metaKey"
+  "autocomplete-plus":
+    fileBlacklist: [
+      ".*"
+      "*.md"
+    ]
   core:
     closeEmptyWindows: false
     destroyEmptyPanes: false
@@ -59,3 +64,9 @@
     panelHeight: 256
   welcome:
     showOnStartup: false
+".source.yaml":
+  "editor":
+    tabLength: 2
+".source.coffee":
+  "editor":
+    tabLength: 2
