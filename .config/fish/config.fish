@@ -27,3 +27,6 @@ thefuck --alias | source
 # !! Contents within this block are managed by 'conda init' !!
 eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/Users/ken/Downloads/google-cloud-sdk/path.fish.inc'; end
