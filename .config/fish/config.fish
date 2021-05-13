@@ -1,6 +1,8 @@
-set -x EDITOR atom
 set -gx PATH ~/.hyper_plugins $PATH
 # set -gx PATH /usr/local/anaconda3/bin $PATH  # commented out by conda initialize
+# set -x EDITOR nvim
+set -x EDITOR code
+
 function ls
     exa  $argv
 end
