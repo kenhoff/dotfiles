@@ -6,3 +6,4 @@ email = ken@hoff.tech
 	signingkey = 219FD078625A80D2
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = code -w
