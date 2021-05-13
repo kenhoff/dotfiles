@@ -25,4 +25,13 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 thefuck --alias | source
 
+status --is-interactive; and source (nodenv init -|psub)
 
+# fuzzy file finder for tracked git files
+function f
+  if test -d .git
+    git ls-files | uniq | fzf | xargs $EDITOR
+  else
+    fzf | xargs $EDITOR
+  end
+end
