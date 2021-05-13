@@ -1,9 +1,12 @@
 set -x EDITOR atom
 set -gx PATH ~/.hyper_plugins $PATH
 # set -gx PATH /usr/local/anaconda3/bin $PATH  # commented out by conda initialize
+function ls
+    exa  $argv
+end
 
 function ll --description "List contents of directory using long format"
-    ls -lha $argv
+    exa -lha $argv
 end
 
 function gs --description "git status"
