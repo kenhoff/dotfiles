@@ -24,6 +24,7 @@ done
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install node
 brew install neovim
 brew install fzf
 brew install tmux
@@ -32,6 +33,12 @@ brew install fish
 # connect fish the right way
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+
+# common npm packages
+
+# yarn
+# nodemon
+# http-server
 
 echo "Finished!"
 
