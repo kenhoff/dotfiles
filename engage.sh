@@ -31,6 +31,9 @@ brew install neovim
 brew install fzf
 brew install tmux
 brew install fish
+brew install ripgrep
+brew install thefuck
+brew install jesseduffield/lazygit/lazygit
 
 # connect fish the right way
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
@@ -45,7 +48,6 @@ chsh -s /usr/local/bin/fish
 echo "Finished!"
 
 
-# brew install thefuck
 # make the `find` command up top ignore all the non-directory files in this repo
 # install node js
 
