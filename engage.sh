@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # To boldly go where no dotfiles have gone before!
 
 echo "Starting..."
