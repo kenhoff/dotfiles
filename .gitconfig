@@ -7,3 +7,5 @@ email = ken@hoff.tech
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = code -w
+[init]
+	defaultBranch = main
