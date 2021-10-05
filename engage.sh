@@ -48,6 +48,8 @@ chsh -s /usr/local/bin/fish
 echo "Finished!"
 
 
+# TODO
+# check to see if fish is already the shell - if so, don't run the chsh command
 # make the `find` command up top ignore all the non-directory files in this repo
 # install node js
 
