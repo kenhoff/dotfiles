@@ -1,6 +1,4 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 name = Ken Hoff
 email = ken@hoff.tech
 	signingkey = 219FD078625A80D2
