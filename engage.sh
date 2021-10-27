@@ -30,6 +30,7 @@ brew install node
 brew install neovim
 brew install fzf
 brew install tmux
+brew install tmuxinator
 brew install fish
 brew install ripgrep
 brew install thefuck
