@@ -34,6 +34,7 @@ brew install fish
 brew install ripgrep
 brew install thefuck
 brew install jesseduffield/lazygit/lazygit
+brew install exa
 
 # connect fish the right way
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
