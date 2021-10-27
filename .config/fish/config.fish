@@ -9,6 +9,10 @@ function ll --description "List contents of directory using long format"
     exa -lha $argv
 end
 
+function lg --description "Lazygit"
+    lazygit
+end
+
 function gs --description "git status"
     git status $argv
 end
