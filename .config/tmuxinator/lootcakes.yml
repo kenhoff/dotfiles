@@ -1,0 +1,28 @@
+# /Users/ken/.config/tmuxinator/lootcakes.yml
+
+name: lootcakes
+root: ~/dev/lootcakes
+
+windows:
+    - frontend:
+        root: ~/dev/lootcakes/lootcakes-frontend
+        panes:
+            - npm run start
+            - git status
+    - bff: 
+        root: ~/dev/lootcakes/lootcakes-bff
+        panes:
+            - ctop
+            - 
+            - git status
+    - api: 
+        root: ~/dev/lootcakes/lootcakes-api
+        panes:
+            -
+            - git status
+    - serverless:
+        root: ~/dev/lootcakes/lootcakes-serverless
+        panes:
+            - npm run azurite
+            - npm run start
+            - git status

@@ -1,0 +1,7 @@
+# /Users/ken/.config/tmuxinator/dotfiles.yml
+
+name: dotfiles
+root: ~/dev/dotfiles
+
+windows:
+  - editor:

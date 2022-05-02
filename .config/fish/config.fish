@@ -26,6 +26,7 @@ function gc --description "git commit"
 end
 
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias code="/usr/local/bin/code"
 
 thefuck --alias | source
 
@@ -37,3 +38,6 @@ function f
     fzf | xargs $EDITOR
   end
 end
+
+# sets up nodenv
+status --is-interactive; and source (nodenv init -|psub)

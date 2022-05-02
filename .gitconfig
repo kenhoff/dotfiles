@@ -7,3 +7,5 @@ email = ken@hoff.tech
 	editor = code -w
 [init]
 	defaultBranch = main
+[pull]
+	ff = only
