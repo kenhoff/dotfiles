@@ -1,16 +1,14 @@
 # set -x EDITOR nvim
 set -x EDITOR code
 
+fish_add_path ~/.nodenv/bin
+
 function ls
     exa  $argv
 end
 
 function ll --description "List contents of directory using long format"
     exa -lha $argv
-end
-
-function lg --description "Lazygit"
-    lazygit
 end
 
 function gs --description "git status"
