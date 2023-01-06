@@ -26,3 +26,5 @@ windows:
             - npm run azurite
             - npm run start
             - git status
+    - tooling:
+        root: ~/dev/lootcakes/lootcakes-tooling

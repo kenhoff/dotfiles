@@ -9,3 +9,5 @@ email = ken@hoff.tech
 	defaultBranch = main
 [pull]
 	ff = only
+[alias]
+	branchsorted = branch --sort=committerdate

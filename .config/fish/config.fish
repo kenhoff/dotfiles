@@ -1,7 +1,13 @@
 # set -x EDITOR nvim
 set -x EDITOR code
 
+fish_add_path ~/bin
 fish_add_path ~/.nodenv/bin
+fish_add_path ~/.yarn/bin
+fish_add_path /usr/bin/python3
+# todo: figure out how to make this different between macos and linux?
+fish_add_path /snap/bin/code
+alias python="python3"
 
 function ls
     exa  $argv
@@ -24,7 +30,7 @@ function gc --description "git commit"
 end
 
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-alias code="/usr/local/bin/code"
+# alias code="/usr/local/bin/code"
 
 thefuck --alias | source
 
