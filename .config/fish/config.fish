@@ -1,5 +1,5 @@
-# set -x EDITOR nvim
-set -x EDITOR code
+set -x EDITOR nvim
+# set -x EDITOR code
 
 fish_add_path ~/bin
 fish_add_path ~/.nodenv/bin
@@ -34,14 +34,19 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 thefuck --alias | source
 
-# fuzzy file finder for tracked git files
-function f
-  if test -d .git
-    git ls-files | uniq | fzf | xargs $EDITOR
-  else
-    fzf | xargs $EDITOR
-  end
+function f 
+    $EDITOR (fzf)
 end
+
+
+# fuzzy file finder for tracked git files
+# function f
+#  if test -d .git
+#    git ls-files | uniq | fzf | xargs $EDITOR
+#  else
+#    fzf | xargs $EDITOR
+#  end
+#end
 
 # sets up nodenv
 status --is-interactive; and source (nodenv init -|psub)
