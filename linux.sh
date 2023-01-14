@@ -1,12 +1,15 @@
-# todo: install all these
+# todo:
+# - check to see if aws is already installed
 
-# brew install fzf
-# brew install ripgrep
+sudo apt update
+
+# install aws
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/tmp/awscliv2.zip"
+unzip /tmp/awscliv2.zip
+sudo /tmp/aws/install
 
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:appimagelauncher-team/stable
-
-sudo apt update
 
 sudo apt install neovim
 sudo apt install tmux
@@ -16,6 +19,7 @@ sudo apt install exa
 sudo apt install nodejs
 sudo apt install npm
 sudo apt install appimagelauncher
+sudo apt install fzf
 
 
 # install nodenv
