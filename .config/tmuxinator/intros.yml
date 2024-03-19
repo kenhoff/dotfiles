@@ -1,0 +1,9 @@
+# /Users/ken/.config/tmuxinator/intros.yml
+
+name: intros
+root: ~/dev/warmintro-poc
+
+windows:
+    - git:
+        panes:
+            - git status

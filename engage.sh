@@ -24,7 +24,7 @@ done
 
 if [ `uname` = "Darwin" ] ;
 then
-	./linux.sh
+	./macos.sh
 fi
 
 if [ `uname` = "Linux" ] ;

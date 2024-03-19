@@ -1,0 +1,9 @@
+# /Users/ken/.config/tmuxinator/universe.yml
+
+name: universe
+root: ~/dev/bee-hive
+
+windows:
+    - git:
+        panes:
+            - git status
